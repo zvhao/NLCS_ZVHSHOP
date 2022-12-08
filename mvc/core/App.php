@@ -8,7 +8,6 @@ class App{
     function __construct(){
  
         $arr = $this->UrlProcess();
-        // show_array(filter_var(trim($_GET["url"], "/")));
  
         // Controller
         if(isset($arr[0]) && file_exists("./mvc/controllers/".$arr[0].".php") ){

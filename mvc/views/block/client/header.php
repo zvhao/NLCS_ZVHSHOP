@@ -1,3 +1,16 @@
+<?php
+// desc time
+$cart_buy = array();
+
+if (isset($_SESSION['cart']['buy'])) {
+	$cart_buy = $_SESSION['cart']['buy'];
+
+	usort($cart_buy, function ($a, $b) {
+		return strtotime($b['dated_at']) - strtotime($a['dated_at']);
+	});
+}
+?>
+
 <!-- header -->
 <header class="header">
     <div class="grid wide">
@@ -122,7 +135,7 @@
 
                                 <ul class="header__cart-list-item">
                                     <?php
-                                    foreach ($_SESSION['cart']['buy'] as $item) {
+                                    foreach ($cart_buy as $item) {
                                     ?>
 
                                         <!-- cart -->

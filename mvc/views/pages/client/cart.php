@@ -1,4 +1,5 @@
 <?php
+// desc time
 $cart_buy = array();
 
 if (isset($_SESSION['cart']['buy'])) {

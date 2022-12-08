@@ -35,17 +35,17 @@
                     <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
                     <ul class="footer-list">
                         <li class="footer-item">
-                            <a href="" class="footer-item__link">
+                            <a href="#" class="footer-item__link">
                                 <i class="fa-brands fa-facebook"></i>
                                 Facebook</a>
                         </li>
                         <li class="footer-item">
-                            <a href="" class="footer-item__link">
+                            <a href="#" class="footer-item__link">
                                 <i class="fa-brands fa-instagram"></i>
                                 Instagram</a>
                         </li>
                         <li class="footer-item">
-                            <a href="" class="footer-item__link">
+                            <a href="#" class="footer-item__link">
                                 <i class="fa-brands fa-linkedin"></i>
                                 LinkedIn</a>
                         </li>

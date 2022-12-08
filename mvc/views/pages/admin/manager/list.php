@@ -1,7 +1,7 @@
 <div>
 	<div class="row">
 		<div class="col-3 mb-3 p-3">
-			<a href="<?= _WEB_ROOT . '' ?>" style="height: 200px;" class="d-flex p-3 align-items-center justify-content-around rounded-pill  text-center bg-success">
+			<a href="<?= _WEB_ROOT . '/user' ?>" style="height: 200px;" class="d-flex p-3 align-items-center justify-content-around rounded-pill  text-center bg-success">
 				<i class="display-3 fa-solid fa-users-line"></i>
 				<h5 class="display-5 m-0"><?= $data['countUser'] ?> USER</h5>
 			</a>
